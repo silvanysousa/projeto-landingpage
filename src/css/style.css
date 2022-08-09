@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;    
+    background-color: lightgreen;         
+}
+
+nav {
+    color: lightgreen;
+    background-color:  rgb(47, 63, 47);
+    padding: 10px;            
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgreen;
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 2px 3px 5px rgba(46, 45, 45, 0.623);
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+a:hover {
+    color: rgb(47, 63, 47);
+    font-weight: bolder;
+    background-color: lightgreen;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+header {
+    background-image: url(../imagens/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    padding: 150px;
+}
+
+.cabecalho h1 {
+    color: lightgreen;
+    font-size: 40px;   
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.623); 
+}
+
+.cabecalho img {
+    width: 50px;
+    height: 50px;
+}
+
+.atrativos {
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;    
+    min-height: 100vh;
+    min-width: 100vw;
+    gap: 150px;
+    padding-top: 40px;
+}
+
+.atrativos img {
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;  
+    border: 10px solid rgb(47, 63, 47);      
+}
+
+h2 {
+    color: lightgreen;
+    background-color:  rgb(47, 63, 47);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px; 
+}
+
+.atrativos h3 {
+    text-align: center;
+    margin: 20px;
+    color:  rgb(47, 63, 47);
+}
+
+.atrativos p {
+    text-align: justify;
+    color: rgb(47, 63, 47);
+    width: 250px;   
+    font-weight: bolder;
+}
+
+footer {
+    text-align: center;
+    color: lightgreen;
+    background-color: rgb(47, 63, 47);
+    padding: 10px;    
+}

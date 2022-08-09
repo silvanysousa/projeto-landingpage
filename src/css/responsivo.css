@@ -1,0 +1,25 @@
+@media (max-width: 1500px) {
+    .cabecalho h1 {
+        font-size: 20px;
+    }
+
+    .atrativos {
+        display: inline-block;               
+    }
+
+    .atrativos img {
+        display: block;       
+        margin: auto;  
+    }
+        
+    .atrativos h2 {
+        text-align: center;
+    }
+
+    .atrativos p {
+        display: block;
+        margin: auto;  
+        padding-bottom: 50px;          
+    }
+
+}
